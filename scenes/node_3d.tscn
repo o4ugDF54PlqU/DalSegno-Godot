@@ -42,6 +42,7 @@ light_color = Color(1, 0.956863, 0.85098, 1)
 shadow_enabled = true
 
 [node name="Player" parent="." instance=ExtResource("1_7s84q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.99404, 0)
 
 [node name="CameraPivot" type="Marker3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0)
