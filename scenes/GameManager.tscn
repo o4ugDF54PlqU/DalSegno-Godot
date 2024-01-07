@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3y8xgwiwnkkj"]
+
+[ext_resource type="Script" path="res://scripts/GameManagerCode.gd" id="1_r02tx"]
+[ext_resource type="Script" path="res://scripts/InputHandler.gd" id="2_3qhds"]
+
+[node name="GameManager" type="Node"]
+script = ExtResource("1_r02tx")
+
+[node name="InputHandler" type="Node" parent="."]
+process_mode = 3
+script = ExtResource("2_3qhds")
