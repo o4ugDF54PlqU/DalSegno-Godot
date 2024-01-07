@@ -15,7 +15,6 @@ func _process(delta):
 func _on_spawn_timer_timeout():
 	# Create a new instance of the Mob scene.
 	var npc = npc_scene.instantiate()
-
 	# Choose a random location on the SpawnPath.
 	# We store the reference to the SpawnLocation node.
 	var npc_spawn_location = get_node("SpawnPath/SpawnLocation")
